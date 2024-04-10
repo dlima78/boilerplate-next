@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+<main
+  class="sc-beySPh dDyjBB"
+>
+  <h1
+    class="sc-guDLey"
+  >
+    Main
+  </h1>
+</main>
+`;
