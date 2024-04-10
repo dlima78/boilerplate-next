@@ -1,11 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: 26rem 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
 <main
-  class="sc-beySPh dDyjBB"
+  class="c0"
 >
   <h1
-    class="sc-guDLey"
+    class=""
   >
     Main
   </h1>
