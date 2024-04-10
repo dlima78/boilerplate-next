@@ -1,0 +1,26 @@
+name: ci
+on: [pull_request]
+
+jobs:
+  build:
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/checkout@v3
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Linging
+        run: npm run lint
+
+      - name: Testing
+        run: npm run test
+
+      - name: Build
+        run: npm run build
